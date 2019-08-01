@@ -108,6 +108,7 @@ class SuperTreeview extends Component {
                 <input
                     type="checkbox"
                     name={node[keywordLabel]}
+                    onChange={() => {}}
                     onClick={(e) => {
                         this.handleCheckToggle(node, e);
                     }}
